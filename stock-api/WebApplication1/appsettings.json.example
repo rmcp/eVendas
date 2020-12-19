@@ -1,0 +1,14 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=;Database=STOCK;User Id=APPUSER;Password=;MultipleActiveResultSets=true",
+    "LogDatabase": "mongodb://localhost:27017/logging?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
